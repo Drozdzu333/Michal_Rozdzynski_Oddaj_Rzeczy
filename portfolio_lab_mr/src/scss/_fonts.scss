@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap");
+@mixin font-base {
+  font-family: "Open Sans", sans-serif;
+}
+@mixin font-alt {
+  font-family: "Merriweather", serif;
+}
