@@ -1,0 +1,7 @@
+@import "./header";
+@import "./threeColumns";
+@import "./simpleSteps";
+.home {
+  display: flex;
+  flex-direction: column;
+}

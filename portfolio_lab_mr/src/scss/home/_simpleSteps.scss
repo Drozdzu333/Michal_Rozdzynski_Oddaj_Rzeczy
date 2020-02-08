@@ -1,0 +1,52 @@
+.simpleSteps {
+  margin: 55px 0 85px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .simpleSteps_title {
+    h2 {
+      font-size: 38px;
+      font-weight: 400;
+    }
+    img {
+      margin: 0 auto;
+    }
+  }
+  .simpleSteps_list {
+    background-color: $background-form;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 100%;
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-top: 70px;
+      padding-bottom: 75px;
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+          font-size: 18px;
+          padding: 10px;
+          &::after {
+            content: "";
+            display: block;
+            position: relative;
+            bottom: -10px;
+            width: 70px;
+            left: calc(50% - 35px);
+            border-bottom: 1px solid #707070;
+          }
+        }
+        p {
+          padding-top: 10px;
+        }
+      }
+      button {
+        border: none;
+      }
+    }
+  }
+}

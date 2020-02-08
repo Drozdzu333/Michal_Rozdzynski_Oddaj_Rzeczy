@@ -1,0 +1,18 @@
+@import "./fonts";
+@import "./colors";
+@import "./reset";
+@import "./home/home";
+@import "./topMenu";
+@import "./login/login.scss";
+body {
+  @include font-base;
+  color: $basic-font-color;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: $basic-font-color;
+}

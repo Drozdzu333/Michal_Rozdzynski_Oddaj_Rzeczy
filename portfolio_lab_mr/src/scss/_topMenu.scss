@@ -1,0 +1,39 @@
+div .topMenu {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  .loginBox {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    & > * {
+      text-decoration: none;
+      color: $alt-font-color;
+      padding: 10px;
+    }
+    .registerBtn {
+      font-size: 13px;
+      height: 46px;
+      width: 90px;
+      border: 0.75px solid $border-color;
+    }
+  }
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    a {
+      color: $basic-font-color;
+      text-decoration: none;
+      padding: 5px;
+      margin: 5px;
+      &:hover {
+        padding: 4.25px;
+        border-top: 0.75px solid $basic-font-color;
+        border-left: 0.75px solid $basic-font-color;
+        border-right: 0.75px solid $alt-font-color;
+        border-bottom: 0.75px solid $alt-font-color;
+      }
+    }
+  }
+}

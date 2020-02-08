@@ -1,0 +1,30 @@
+.threeColums {
+  background-image: url(./../../assets/3-Columns-Background.png);
+  padding-top: 45px;
+  padding-bottom: 85px;
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .threeColumn_column {
+      display: flex;
+      flex-direction: column;
+      color: $brown-font;
+      align-items: center;
+      margin: 0 140px;
+      h2 {
+        font-size: 90px;
+        font-weight: 300;
+      }
+      h3 {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 10px 0 25px 0;
+      }
+      p {
+        @include font-alt;
+        font-weight: 300px;
+      }
+    }
+  }
+}
