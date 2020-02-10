@@ -1,0 +1,14 @@
+.defBtns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 310px;
+  height: 120px;
+  text-align: center;
+  border: 0.75px solid $basic-font-color;
+  margin: 10px;
+  h2 {
+    font-size: 36px;
+    font-weight: 300;
+  }
+}

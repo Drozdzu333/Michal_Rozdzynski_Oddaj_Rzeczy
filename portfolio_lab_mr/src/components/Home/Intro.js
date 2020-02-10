@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-import decoration_svg from "../variables";
+import { decoration_svg } from "../variables";
 
 class Intro extends Component {
   render() {
@@ -14,13 +14,13 @@ class Intro extends Component {
             <img src={decoration_svg} />
           </div>
           <div className="title-btns">
-            <div>
+            <div className="defBtns">
               <Link to="/login">
                 <h2>ODDAJ</h2>
                 <h2>RZECZY</h2>
               </Link>
             </div>
-            <div>
+            <div className="defBtns">
               <h2>ZORGANIZUJ</h2>
               <h2>ZBIURKĘ</h2>
             </div>

@@ -1,9 +1,11 @@
 @import "./fonts";
 @import "./colors";
 @import "./reset";
-@import "./home/home";
+@import "./components/index";
+@import "./home";
 @import "./topMenu";
-@import "./login/login.scss";
+@import "./login/index";
+@import "./home/aboutUs";
 body {
   @include font-base;
   color: $basic-font-color;

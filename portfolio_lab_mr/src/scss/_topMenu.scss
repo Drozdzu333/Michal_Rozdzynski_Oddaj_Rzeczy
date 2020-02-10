@@ -13,8 +13,6 @@ div .topMenu {
     }
     .registerBtn {
       font-size: 13px;
-      height: 46px;
-      width: 90px;
       border: 0.75px solid $border-color;
     }
   }
@@ -25,10 +23,10 @@ div .topMenu {
     a {
       color: $basic-font-color;
       text-decoration: none;
-      padding: 5px;
+      padding: 10px;
       margin: 5px;
+      border: 0.75px solid #ffffff00;
       &:hover {
-        padding: 4.25px;
         border-top: 0.75px solid $basic-font-color;
         border-left: 0.75px solid $basic-font-color;
         border-right: 0.75px solid $alt-font-color;

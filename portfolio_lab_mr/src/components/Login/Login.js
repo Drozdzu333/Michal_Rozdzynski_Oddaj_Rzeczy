@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-import decoration_svg from "../variables";
+import { decoration_svg } from "../variables";
 class Login extends Component {
   state = {
     email: "",
